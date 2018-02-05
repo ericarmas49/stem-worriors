@@ -1,0 +1,168 @@
+.typewriter {
+  text-align: left;
+  font-weight: 400;
+}
+.typewriter > span {
+  display: inline-block;
+}
+.typewriter.animate > span > i {
+  -webkit-animation: typewriter 300ms forwards, background 1000ms forwards;
+          animation: typewriter 300ms forwards, background 1000ms forwards;
+}
+.typewriter > span > i {
+  opacity: 0;
+  font-style: normal;
+  font-size: 1em;
+  min-width: .4em;
+  border-radius: 2px;
+}
+.typewriter > span > i:nth-of-type(1) {
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
+}
+.typewriter > span > i:nth-of-type(2) {
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
+}
+.typewriter > span > i:nth-of-type(3) {
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+}
+.typewriter > span > i:nth-of-type(4) {
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
+}
+.typewriter > span > i:nth-of-type(5) {
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+}
+.typewriter > span > i:nth-of-type(6) {
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+}
+.typewriter > span > i:nth-of-type(7) {
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+}
+.typewriter > span > i:nth-of-type(8) {
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+}
+.typewriter > span > i:nth-of-type(9) {
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+}
+.typewriter > span > i:nth-of-type(10) {
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+}
+.typewriter > span > i:nth-of-type(11) {
+  -webkit-animation-delay: 1100ms;
+          animation-delay: 1100ms;
+}
+.typewriter > span > i:nth-of-type(12) {
+  -webkit-animation-delay: 1200ms;
+          animation-delay: 1200ms;
+}
+.typewriter > span > i:nth-of-type(13) {
+  -webkit-animation-delay: 1300ms;
+          animation-delay: 1300ms;
+}
+.typewriter > span > i:nth-of-type(14) {
+  -webkit-animation-delay: 1400ms;
+          animation-delay: 1400ms;
+}
+.typewriter > span > i:nth-of-type(15) {
+  -webkit-animation-delay: 1500ms;
+          animation-delay: 1500ms;
+}
+.typewriter > span > i:nth-of-type(16) {
+  -webkit-animation-delay: 1600ms;
+          animation-delay: 1600ms;
+}
+.typewriter > span > i:nth-of-type(17) {
+  -webkit-animation-delay: 1700ms;
+          animation-delay: 1700ms;
+}
+.typewriter > span > i:nth-of-type(18) {
+  -webkit-animation-delay: 1800ms;
+          animation-delay: 1800ms;
+}
+.typewriter > span > i:nth-of-type(19) {
+  -webkit-animation-delay: 1900ms;
+          animation-delay: 1900ms;
+}
+.typewriter > span > i:nth-of-type(20) {
+  -webkit-animation-delay: 2000ms;
+          animation-delay: 2000ms;
+}
+.typewriter > span > i:nth-of-type(21) {
+  -webkit-animation-delay: 2100ms;
+          animation-delay: 2100ms;
+}
+.typewriter > span > i:nth-of-type(22) {
+  -webkit-animation-delay: 2200ms;
+          animation-delay: 2200ms;
+}
+.typewriter > span > i:nth-of-type(23) {
+  -webkit-animation-delay: 2300ms;
+          animation-delay: 2300ms;
+}
+.typewriter > span > i:nth-of-type(24) {
+  -webkit-animation-delay: 2400ms;
+          animation-delay: 2400ms;
+}
+.typewriter > span > i:nth-of-type(25) {
+  -webkit-animation-delay: 2500ms;
+          animation-delay: 2500ms;
+}
+.typewriter > span > i:nth-of-type(26) {
+  -webkit-animation-delay: 2600ms;
+          animation-delay: 2600ms;
+}
+.typewriter > span > i:nth-of-type(27) {
+  -webkit-animation-delay: 2700ms;
+          animation-delay: 2700ms;
+}
+.typewriter > span > i:nth-of-type(28) {
+  -webkit-animation-delay: 2800ms;
+          animation-delay: 2800ms;
+}
+.typewriter > span > i:nth-of-type(29) {
+  -webkit-animation-delay: 2900ms;
+          animation-delay: 2900ms;
+}
+.typewriter > span > i:nth-of-type(30) {
+  -webkit-animation-delay: 3000ms;
+          animation-delay: 3000ms;
+}
+
+@-webkit-keyframes typewriter {
+  50% {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes typewriter {
+  50% {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes background {
+  0% {
+    background: rgba(17, 17, 17, 0.1);
+  }
+}
+@keyframes background {
+  0% {
+    background: rgba(17, 17, 17, 0.1);
+  }
+}
